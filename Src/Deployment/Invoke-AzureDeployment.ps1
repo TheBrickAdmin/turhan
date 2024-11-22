@@ -1,10 +1,5 @@
 [CmdletBinding()]
-param (
-    [Parameter(Mandatory)]
-    [ValidateSet("MTD", "MTD + XDR")]
-    [String]
-    $DeliveredService
-)
+param ()
 
 # The following 'Requires' statements may slow down the initial start of this script.
 # After validating all requirements are present, this section can be commented out to prevent performance impact.
